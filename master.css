@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main .container1, .container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.container2{
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.container1 p{
+  font-size: 2em;
+  margin: 2%;
+}
+
+#emailuser{
+  font-size: 1.2em;
+}
+
+.container2 p{
+  margin: 2%;
+  font-size: 2.5em;
+}
+
+@media all and (max-width:768px) {
+  .container1 p{
+    font-size: 1.2em;
+  }
+
+  #emailuser{
+    font-size: .9em;
+  }
+
+  .container2 p{
+    margin: 2%;
+    font-size: 1.8em;
+  }
+}
